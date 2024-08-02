@@ -81,7 +81,7 @@ h1 {
 .title {
     font-size: 30px;
     font-weight: 600;
-    height: fit-content;
+    height: 0;
 }
 
 .duration {
@@ -105,4 +105,13 @@ td {
 
 tr {
     height: fit-content;
+}
+
+.icon-small {
+    height: 50px;
+    width: 50px;
+}
+
+span {
+    display: flex;
 }
