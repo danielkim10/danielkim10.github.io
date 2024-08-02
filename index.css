@@ -1,0 +1,108 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+}
+
+body {
+    width: inherit;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    height: fit-content;
+}
+
+#contact {
+    img {
+        height:50px;
+        width:50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+#roles {
+    display: flex;
+    justify-content: space-between;
+}
+
+#experience {
+    min-width: 1000px;
+}
+
+h1 {
+    font-size: 144px;
+    margin: 0%;
+}
+
+#roles {
+    width: 100%;
+}
+
+h2 {
+    width: 33%;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    padding:10px;
+}
+
+.content {
+    flex: auto;
+    max-height:150px;
+    padding: 10px;
+}
+
+table {
+    flex: auto;
+}
+
+h1 {
+    
+}
+
+.experience-row {
+    display: flex;
+    margin: 10px;
+    min-width: 1000px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    height: fit-content;
+}
+
+.duration {
+    font-size: 18px;
+    float: right;
+}
+
+.company {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.location {
+    font-size: 18px;
+    float: right;
+}
+
+td {
+    vertical-align: text-bottom;
+}
+
+tr {
+    height: fit-content;
+}
